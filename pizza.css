@@ -1,0 +1,120 @@
+* {
+    box-sizing:border-box;
+}
+
+header{
+    background-color: #E83E0C;
+    padding: 28px;
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    font-family: fantasy;
+}
+
+nav {
+    background-color: #FF1500;
+    float: left;
+    margin-left: 0;
+    font-size: 25pt;
+    font-family: fantasy;
+    padding: 25px; 
+    height: 100%;
+}
+
+main{
+    background-color: #FF670D;
+    padding: 20px;
+    margin-left: 250px;
+    height: 100%; 
+}
+
+body{
+    width: 600px;
+    display: center;
+    box-shadow: 4px 0 4px, -4px 0 4px;
+    margin: auto;
+}
+
+footer{
+    margin-left: 250px;
+    background-color: #E83E0C;
+    color: white;
+    font-size: 20pt;
+    padding: 25px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #FF1500;
+    height: 100%;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    margin-top: 22px;
+    color: white;
+    padding: 17.5px 10px; 
+}
+
+.navtext{
+    background-color: #FF1500;
+}
+
+.order {
+    position: fixed;
+    background-image: url(images/pizza.png);
+    background-repeat: no-repeat;
+    left: 50%;
+    top: 50%;
+    text-shadow: 4px 4px 4px black;
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+    margin-top: -350px;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    color: white;
+    background-size: 100%;
+}
+.pizza {
+    height: 70px;
+    width: 100px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.vertpos {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    
+}
+
+#bodyimage {
+    height: 250px;
+    width: 315px;
+}
+
+#mushroom {
+    background-image: url(images/mushroom.jpeg);
+    float: right;
+    }    
+
+#pepperoni {
+    background-image: url(images/pepperoni.jpeg);
+    float: left;
+    }
+
+#sausage{
+    background-image: url(images/sausage-pizza.jpg);
+    float: right;
+    }
